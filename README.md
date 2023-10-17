@@ -2,11 +2,13 @@
 
 Hey there! I'm Shafin, a passionate React developer who loves building next-level web and mobile applications. With a strong foundation in React and React Native, I bring designs to life with beautiful UI/UX and seamless user experiences. I also have a knack for CSS, HTML, and I'm comfortable working with Figma to create stunning designs.
 
+<!---
 ## Technologies I Work With:
 
 - **Frontend**: React, Next.js, React Native, HTML, CSS, Figma
 - **Backend**: Express.js, Nest.js
 - **Databases**: PostgreSQL, Prisma
+--->
 
 ## What I Do:
 

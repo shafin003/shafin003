@@ -10,6 +10,34 @@ Hey there! I'm Shafin, a passionate React developer who loves building next-leve
 - **Databases**: PostgreSQL, Prisma
 --->
 
+## Who i am?
+```py
+from Universe.Earth import Human
+
+class Shafin(Human):
+    name = "Shafin ."
+    age = Number
+    education = "BS in Computer Science & Engineering"
+
+    programming_lang = ["javaScript", "swift", "python", "c++]
+    frameworks = ["Next.js", "Nest.js"]
+
+    Favorites = [
+        "computer",
+        "programming", 
+        "book", 
+        "cooking",
+        "music",
+    ]
+    Learning = [
+        "Computer Engineering",
+        "design patterns",
+        "ML",
+    ]
+    working_on = ["level up my skills", "and many more..."]
+
+```
+
 ## What I Do:
 
 - ✨ Craft pixel-perfect, responsive, and intuitive user interfaces.

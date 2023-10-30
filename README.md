@@ -15,7 +15,7 @@ Hey there! I'm Shafin, a passionate React developer who loves building next-leve
 from Universe.Earth import Human
 
 class Shafin(Human):
-    full_name = "Shafin ."
+    name = "Shafin ."
     education = "BS in Computer Science & Engineering"
 
     programming_lang = ["JavaScript"]

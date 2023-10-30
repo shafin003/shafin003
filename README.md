@@ -12,6 +12,7 @@ Hey there! I'm Shafin, a passionate React developer who loves building next-leve
 
 ## Who i am?
 ```py
+
 from Universe.Earth import Human
 
 class Shafin(Human):
@@ -48,13 +49,14 @@ class Shafin(Human):
 
     working_on = ["level up my skills", "and many more..."]
 
-def introduce(self):
+    def introduce(self):
         print(f"Hello, fellow Earthlings! My name is {self.name}, and I'm a software engineer.")
         print(f"I'm skilled in {', '.join(self.programming_lang)} and work with frameworks like {', '.join(self.frameworks)} and libraries such as {', '.join(self.libraries)}.")
         print(f"I use databases like {', '.join(self.database)} and tools like {', '.join(self.tools)} to create amazing projects.")
         print(f"My skills also extend to {', '.join(self.other_skills)} and I enjoy {', '.join(self.hobbies[:-1])}, and much more!")
-        print(f"Currently, I'm learning about {', '.join(self.Learning)} and working on projects like {', '.join(self.working_on)}. Let's create something extraordinary together!")
-  
+        print(f"My favorite activities include {', '.join(self.favorites[:-1])}, and {self.favorites[-1]}.")
+        print(f"I am currently learning about {', '.join(self.learning)} and working on projects to {', '.join(self.working_on)}. Let's create something extraordinary together!")
+
 shafin = Shafin()
 shafin.introduce()
 

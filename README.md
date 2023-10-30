@@ -18,14 +18,22 @@ class Shafin(Human):
     full_name = "Shafin ."
     education = "BS in Computer Science & Engineering"
 
-    programming_skills = ["JavaScript", "Node.js", "React.js", "Next.js", "Nest.js", "Prisma", "Firebase", "Express.js, PostgreSQL"]
-    other_skills = ["HTML", "CSS", "Sass", "Figma", "Git", "WordPress", "Shopify"]
+    programming_lang = ["JavaScript"]
+    frameworks = ["Next.js", "Nest.js", "Express.js"]
+    libraries = ["React.js"]
+    database = ["PostgreSQL"]
+    tools = ["Prisma", "Firebase", "HTML", "CSS", "Sass"]
+    other_skills = ["Node.js", "Figma", "Git", "WordPress", "Shopify"]
 
-    hobbies = ["Coding", "Cooking", "Music", "Movies", "Reading", "Exploring new technologies"]
+    hobbies = ["Coding", "Cooking", "Music", "Movies", "Reading", "Exploring new technologies", "contributing to open-source projects", "learning new programming languages"]
 
     Favorites = [
         "Innovative coding challenges",
         "Creating interactive web applications",
+        "innovative tech gadgets",
+        "discussing code with fellow developers",
+        "building side projects",
+        "optimizing code for performance",
         "Experimenting with new recipes",
         "Discovering new music genres",
         "Diving into captivating books",
@@ -34,11 +42,21 @@ class Shafin(Human):
     Learning = [
         "Advanced web development techniques",
         "Mobile app development with Swift",
-        "UI/UX design principles",
+        "Cybersecurity and Ethical Hacking",
         "Cloud computing and serverless architectures",
     ]
 
     working_on = ["level up my skills", "and many more..."]
+
+def introduce(self):
+        print(f"Hello, fellow Earthlings! My name is {self.name}, and I'm a software engineer.")
+        print(f"I'm skilled in {', '.join(self.programming_lang)} and work with frameworks like {', '.join(self.frameworks)} and libraries such as {', '.join(self.libraries)}.")
+        print(f"I use databases like {', '.join(self.database)} and tools like {', '.join(self.tools)} to create amazing projects.")
+        print(f"My skills also extend to {', '.join(self.other_skills)} and I enjoy {', '.join(self.hobbies[:-1])}, and much more!")
+        print(f"Currently, I'm learning about {', '.join(self.Learning)} and working on projects like {', '.join(self.working_on)}. Let's create something extraordinary together!")
+  
+shafin = Shafin()
+shafin.introduce()
 
 ```
 

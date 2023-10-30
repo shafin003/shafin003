@@ -18,7 +18,7 @@ class Shafin(Human):
     full_name = "Shafin ."
     education = "BS in Computer Science & Engineering"
 
-    programming_skills = ["JavaScript", "Node.js", "React.js", "Next.js", "Nest.js", "Prisma", "Firebase", "Express.js"]
+    programming_skills = ["JavaScript", "Node.js", "React.js", "Next.js", "Nest.js", "Prisma", "Firebase", "Express.js, PostgreSQL"]
     other_skills = ["HTML", "CSS", "Sass", "Figma", "Git", "WordPress", "Shopify"]
 
     hobbies = ["Coding", "Cooking", "Music", "Movies", "Reading", "Exploring new technologies"]

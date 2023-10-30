@@ -15,25 +15,29 @@ Hey there! I'm Shafin, a passionate React developer who loves building next-leve
 from Universe.Earth import Human
 
 class Shafin(Human):
-    name = "Shafin ."
-    age = Number
+    full_name = "Shafin ."
     education = "BS in Computer Science & Engineering"
 
-    programming_lang = ["javaScript", "swift", "python", "c++]
-    frameworks = ["Next.js", "Nest.js"]
+    programming_skills = ["JavaScript", "Node.js", "React.js", "Next.js", "Nest.js", "Prisma", "Firebase", "Express.js"]
+    other_skills = ["HTML", "CSS", "Sass", "Figma", "Git", "WordPress", "Shopify"]
+
+    hobbies = ["Coding", "Cooking", "Music", "Movies", "Reading", "Exploring new technologies"]
 
     Favorites = [
-        "computer",
-        "programming", 
-        "book", 
-        "cooking",
-        "music",
+        "Innovative coding challenges",
+        "Creating interactive web applications",
+        "Experimenting with new recipes",
+        "Discovering new music genres",
+        "Diving into captivating books",
     ]
+
     Learning = [
-        "Computer Engineering",
-        "design patterns",
-        "ML",
+        "Advanced web development techniques",
+        "Mobile app development with Swift",
+        "UI/UX design principles",
+        "Cloud computing and serverless architectures",
     ]
+
     working_on = ["level up my skills", "and many more..."]
 
 ```

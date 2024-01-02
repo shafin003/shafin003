@@ -10,7 +10,7 @@ Hey there! I'm Shafin, a passionate React developer who loves building next-leve
 - **Databases**: PostgreSQL, Prisma
 --->
 
-## Who i am?
+## Who I am?
 ```py
 
 from Universe.Earth import Human
